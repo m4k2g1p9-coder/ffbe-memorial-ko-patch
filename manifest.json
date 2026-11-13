@@ -1,0 +1,515 @@
+{
+ "target_apk": {
+  "name": "FFBE-Memorial-EN-Global-Events-v208.apk",
+  "bytes": 145206221,
+  "sha256": "9d21fc8b61c9900eaacb1c2ddef2cabcad1e97d2dc720be16ac09b06fc0086b4",
+  "package": "com.square_enix.ffbejpn"
+ },
+ "dictionary_keys": 304404,
+ "files": {
+  "ApkPatcher.cs": {
+   "bytes": 19597,
+   "sha256": "7acbb4aa5df3debe8e44126036bfdd83ec2dd3ca990cdf0525100da97204756a"
+  },
+  "patch.ps1": {
+   "bytes": 3109,
+   "sha256": "70b1cb80098a0d0191612b7e6e2145eda0a110dee5335b9055ae0ab702bb1fec"
+  },
+  "README_KO.txt": {
+   "bytes": 1992,
+   "sha256": "1ddb932a7f21acea8725450979f0e474394fee41fd3076d1c7b4f3f7c798fc95"
+  },
+  "run_patch.bat": {
+   "bytes": 120,
+   "sha256": "86d1bb1934f3ab0a947a664c94175764b90dfc29745894d0db508e0b76e1cfe7"
+  },
+  "payload/expected_sha256.txt": {
+   "bytes": 65,
+   "sha256": "b249c725303f83fbf72235a10995e02d9e4584c0a192e752aff07db620c1b287"
+  },
+  "payload/delta/assets/frida_script.js": {
+   "bytes": 225352,
+   "sha256": "814638dbe2a77a68d30d4f49ceb1826122edc6f4d4e5914ca406684d32413bbc"
+  },
+  "payload/delta/assets/cpk/common.cpk": {
+   "bytes": 3387180,
+   "sha256": "4e5c05d63c1c3b8bb3f0655c317c475b81b401c6a39964ada5c4b5eb5ae47132"
+  },
+  "payload/delta/assets/cpk/resources.cpk": {
+   "bytes": 29667446,
+   "sha256": "e7ed744ff5b004cd14864a6aedc20fbda60fcd4a2bcfa5af8aeb3e036c367f5b"
+  },
+  "payload/delta/assets/font/FOT-SkipStd-E.otf": {
+   "bytes": 9733056,
+   "sha256": "7767c451ae1a45732bc16f5cc9b54749d762d426278522473cc5382073f46efa"
+  },
+  "payload/delta/assets/font/TT_RodinCattleya-B.ttf": {
+   "bytes": 3250719,
+   "sha256": "aa8986920bec1c672521b6d6ce14a0d83efd0fcc98cf9c16c067ab613c2f61a4"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_1_1.png": {
+   "bytes": 81281,
+   "sha256": "fea351bde64aea65a906f93c9d7ce15622eee6726840ecf75fc548287f89c67d"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_1_10.png": {
+   "bytes": 72508,
+   "sha256": "d775b0c9bf6e6ae6bd6b841ee9d14f76c2cf70586688613d5b4fb18d3d7b5876"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_1_11.png": {
+   "bytes": 63185,
+   "sha256": "e4ddf52303d70706e01122b2a90744f0d6658c05a2ef1ca9d24452583008a3e1"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_1_2.png": {
+   "bytes": 86009,
+   "sha256": "50db1970583ba96e1a23fa2a8b0ba20a59c8de8377f1dd53547154507f4851b7"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_1_3.png": {
+   "bytes": 72830,
+   "sha256": "2ebc4bff854aea36f2c44aa080d98a8ac1810c0d919cb73c16e58ba584918051"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_1_4.png": {
+   "bytes": 87651,
+   "sha256": "ed0b8078124fa19bcaeb66e5710b56bb0925acbd3f092edb89bae89beb87b043"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_1_5.png": {
+   "bytes": 80591,
+   "sha256": "c2b7d8faa550c1f412b1fd9949599f901fad9217677a8e7219fe1bdb4d5f2ac8"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_1_6.png": {
+   "bytes": 84723,
+   "sha256": "0af6c18d9d37c8e7b4c7b251beaea2aa0123c78eb68e3664eb7101ecf317db02"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_1_7.png": {
+   "bytes": 77812,
+   "sha256": "f33d58995c9f79d4023500e1df87622468d71f5f0bad4a23172b0fc89e639f29"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_1_8.png": {
+   "bytes": 79316,
+   "sha256": "bdbeca23a2755d337c5c36e6fcf17be14d782a6dd84ef8b2b31ebf2bb9cd6f3f"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_1_9.png": {
+   "bytes": 67642,
+   "sha256": "34d2f5c8cf9aa18638c019a55af6fd27363156b176fea7f79651120600905b58"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_10_1.png": {
+   "bytes": 154994,
+   "sha256": "f90fb4a9c4f587f52ca9e9ae2e032c3403a4f90365d05d76250926d03300832c"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_1_1.png": {
+   "bytes": 91882,
+   "sha256": "86517e35d611880749b168ab4cce564055e37eaff12b72d409769e65cc6e462e"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_1_2.png": {
+   "bytes": 124234,
+   "sha256": "327853d3fa3db7a3c2bafbaf95dcbd6837a94943d2cac535c24a270dd1c37d07"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_1_3.png": {
+   "bytes": 108664,
+   "sha256": "67ca55bbb415b28886c7a5712fb21407fab5401c3dd4e58e14dec34a0d755f1b"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_2_1.png": {
+   "bytes": 113681,
+   "sha256": "46fd9e4b7dbc501a963863b267a40cc86fdce188c7c20537e398a0926a4a04f4"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_2_2.png": {
+   "bytes": 101813,
+   "sha256": "52781ceb8afc8f00d552c357e98525037ad4f3665b0a1b27801a572ebae5d9f2"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_3_1.png": {
+   "bytes": 89206,
+   "sha256": "37a7aff5d0391f2274f5b57fd5310f40f26cbbab2dfc077421cf047cae82abb6"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_3_2.png": {
+   "bytes": 90689,
+   "sha256": "491623f84d44efed9d7350f2d1921afdf8f72a7059b7ea66674d45b707b3ca14"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_3_3.png": {
+   "bytes": 89485,
+   "sha256": "08cb329c1db7b0c1beedc0ef5a52aae1e26fb801e53b2f265150373d36366aa7"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_4_1.png": {
+   "bytes": 121612,
+   "sha256": "c7fe68313fa4f59f8a5a7bb3c78976b64281398c04e7a48b0a27e0c8ff9f1d9e"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_4_2.png": {
+   "bytes": 111436,
+   "sha256": "eb03c132721a3910f89a8fed0a8391b7d5bbc42ebb9943778799728656617c17"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_4_3.png": {
+   "bytes": 135200,
+   "sha256": "7dfccd238b5087d120be9e2d0bf6b2f2a1cb6de173a70fd10eb95ab17eb22192"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_5_1.png": {
+   "bytes": 88130,
+   "sha256": "cc1d2edd3ca68ce499c599c847f8878e697f19c7411ccba336cb04d89ff4f957"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_5_2.png": {
+   "bytes": 93820,
+   "sha256": "f81220568ab469a654de14a850e3fc9f82367fe850c7eecc4daea3f2db4e4f7d"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_6_1.png": {
+   "bytes": 94524,
+   "sha256": "ca36a24913c132525a9364693bf0084bf7531152d040e22cf8579a1b0bf75afe"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_6_2.png": {
+   "bytes": 87047,
+   "sha256": "47c2636f28e6e3721651c99dc1e0dd2fdc4cf9270d9c96d6a2583ef008fb9ac0"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_6_3.png": {
+   "bytes": 77657,
+   "sha256": "893aa6a7878ac1426bb3c7b79eab2fc21c000b8882d8f4948f33940d6cee573c"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_7_1.png": {
+   "bytes": 116211,
+   "sha256": "afa7c7ab5e7c008dcea15f800300271e58667f88b10f0fee4d9fa6f61e848365"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_7_2.png": {
+   "bytes": 107828,
+   "sha256": "a55ab586a4f62b34dee3c6978b1caec3b543140422ab082136b24f55d2f597f4"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_8_1.png": {
+   "bytes": 101951,
+   "sha256": "354b6a0df099b442f4388afaf799ff947668a267c2b4fa8c9ba7b0a7f56758d3"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_8_2.png": {
+   "bytes": 97087,
+   "sha256": "7cee23be50ea45c793a522d835eeac2f78cca54d0550c51e4f82bcf22a5df199"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_9_1.png": {
+   "bytes": 159419,
+   "sha256": "c2167052621a826eefa001ca66615243fc58222624f7c5646a46122f918193cf"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_2_9_2.png": {
+   "bytes": 119113,
+   "sha256": "d98e8488042c346bb8a14d817e687f084d94d8546cacc83eced0b95680c6590e"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_3_10_1.png": {
+   "bytes": 122001,
+   "sha256": "d32559b5511bd8ed22b807556bf7fe9cf08ade3b43b20d67a78825ab03b8c612"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_3_1_1.png": {
+   "bytes": 133935,
+   "sha256": "18e08d4fa735a82efb4f0005382131b265e2eadd8fa4c72ab74a60353ec6a60a"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_3_1_2.png": {
+   "bytes": 81844,
+   "sha256": "72ad3893102b05548215c97f3f590da7ed0090f4be02496accda8e155c28a9d3"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_3_2_1.png": {
+   "bytes": 168766,
+   "sha256": "f37495afe989d82206954ce9da9c8a97423d01ec8c6b44cbb6ddb6e1e2527a88"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_3_2_2.png": {
+   "bytes": 117538,
+   "sha256": "0054c26a8fafc9d5acff66888fd4d0fce48dcccc2a6b8f115d2187912889e403"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_3_3_1.png": {
+   "bytes": 150874,
+   "sha256": "84707a180d697c29496273f48eebe8e60a80bf6507ec4b3d9247e387bb704296"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_3_3_2.png": {
+   "bytes": 110097,
+   "sha256": "d7bd96798fb9f015f2955652635377634c871cc3ea4b2405ab14888c390d1747"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_3_4_1.png": {
+   "bytes": 126234,
+   "sha256": "18d32853bbaada73ae52ccbc469798be91e2963466dc3dc01ac482e0752f9c35"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_3_4_2.png": {
+   "bytes": 113967,
+   "sha256": "0a18194cfa28a3b4584e49cf8fe9661979ca87dae176f938b1be5943ea26d913"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_3_5_1.png": {
+   "bytes": 131262,
+   "sha256": "aaa1ab13ae4e03ab02c5dc26b28cdda33508b2130506e015e7c7313b93914f51"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_3_5_2.png": {
+   "bytes": 136609,
+   "sha256": "c9f992837188ee38c7a508e60b9e7626d574afe1cc3a20a1db9c83fc596a7671"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_3_5_3.png": {
+   "bytes": 128219,
+   "sha256": "2be261969c1bc03767dab646763c664fb9ef7c4e4bf109843f86a512cd01202b"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_3_6_1.png": {
+   "bytes": 111219,
+   "sha256": "4a2a0310f2b716f32f54a7b68c6751cc0f336b9a331ef6075ce197cfb1f2d922"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_3_6_2.png": {
+   "bytes": 110963,
+   "sha256": "7ec7f6f594f37d681633b49425b3b59d648299a77047d186077379998fcf668d"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_3_7_1.png": {
+   "bytes": 105087,
+   "sha256": "a7189d5726b6ea962c6c93dc02f7a89303bfa6e25ec407c289f9d61a7a41b1c0"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_3_7_2.png": {
+   "bytes": 114139,
+   "sha256": "228b88b7b74de153227b964a197251408e7b5bb0da2c6dd85526d24141d70d84"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_3_7_3.png": {
+   "bytes": 100338,
+   "sha256": "52d644539f9c43dc307b1983826c1420769517d1405db9e0c285e31e272ce69f"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_3_8_1.png": {
+   "bytes": 126420,
+   "sha256": "78059e842c3364d7e178d4eaf6c571fa3130a631a8ebde04cd153a7fbe8ea003"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_3_8_2.png": {
+   "bytes": 125620,
+   "sha256": "7ad42e999db37e674f876a5eafe0126b768ae1ec3fc6f53b2a4ddef511b4a36a"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_3_9_1.png": {
+   "bytes": 81710,
+   "sha256": "2e4ac6699f555242757cc1dbb65fdc0bcb8265b7005922fb0a8d2292c94473f6"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_3_9_2.png": {
+   "bytes": 85871,
+   "sha256": "2939d3dcca75a88cdfd9d7f9fb7ee0f8f80010a66b2c88bce8cff44c5d2445de"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_3_9_3.png": {
+   "bytes": 83626,
+   "sha256": "181706da4a0d64597f1b339564d8f83f22994b7cd00cd97bfc2a948fb87bfe92"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_10_1.png": {
+   "bytes": 92876,
+   "sha256": "71d848643265c44d9ae555556f4511e211e633a37cc425e86d2dcdc600cd0c93"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_10_2.png": {
+   "bytes": 127679,
+   "sha256": "13c040e1a1b1db0b26f10900447d94a7ffb5fd50238f91ebecb475e5b8865318"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_11_1.png": {
+   "bytes": 78004,
+   "sha256": "1e4bb2e0c2ceb1699c7d2200621ebcc0d8b4e261b7db5670a9fc2e908c881dd8"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_11_2.png": {
+   "bytes": 113480,
+   "sha256": "4c3e25dd462b7e21bda0bab05420e95ffb04069be59152dc311a24ebed111d5c"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_12_1.png": {
+   "bytes": 115589,
+   "sha256": "ee4b22602800ddd3cb133866989cd76ea7deff08cfd9f5c116ef0e067c9792d7"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_12_2.png": {
+   "bytes": 99439,
+   "sha256": "99014c063b54d89d44ee5e23ae13cdd867360fb87ed1f5dbf3a76861d7ef2110"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_13_1.png": {
+   "bytes": 88759,
+   "sha256": "6955107c016bc65da214ffd5685df24c462636085d80b20521a6e02a851cab03"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_13_2.png": {
+   "bytes": 142061,
+   "sha256": "a21d785007e76ed9a8e43b438208fc07783efa9827a2e65a8794e20dc1eea991"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_14_1.png": {
+   "bytes": 104322,
+   "sha256": "41504a0028d05c9427a438e752c4e80ccd0ad223d865a34c189f192aa5a6994e"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_14_2.png": {
+   "bytes": 119697,
+   "sha256": "a9357fdd1aeb9aca2ff4b50415477e3554448a01bb6f9858823c0d8c88d6da3a"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_15_1.png": {
+   "bytes": 130016,
+   "sha256": "7e6c770f857a95a7e955c5ad8c2fa1b1c7839018c63bd398ddae9bd6edf11b1b"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_15_2.png": {
+   "bytes": 114886,
+   "sha256": "3bc38e79703a3de2851fd09dbdf8c425a0ec9d0b816c41030b50d50f605d8426"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_1_1.png": {
+   "bytes": 92511,
+   "sha256": "39ce4f96ca14ace0fd2fa4a9b30f4316a9795432b38cfb485c75b7de2cdb7fcf"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_1_2.png": {
+   "bytes": 87854,
+   "sha256": "e996bfa0bb9fe413978f8dc86861004d169728f59b9ba6f4e205458b0711d98f"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_1_3.png": {
+   "bytes": 110861,
+   "sha256": "07f6ba1ae04454c950d16dec4fc65857b8e418d04c006138f6fccebb29e39d55"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_2_1.png": {
+   "bytes": 109175,
+   "sha256": "9fb2b69b601a0c619615fda3a98a05a90873ac257d229cc862a1a26a2049b8ec"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_2_2.png": {
+   "bytes": 110228,
+   "sha256": "a8084af0567a29f9b5d62736e63e8905dcc9805ea16a9614bc0cfe6aa999ef60"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_2_3.png": {
+   "bytes": 121699,
+   "sha256": "30b723444e498bc0506f1316ab499460af0f026b72b55dbf5f768ce6a3f8add8"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_3_1.png": {
+   "bytes": 109279,
+   "sha256": "778e2f3520c5cb7e50df3e9aa56cda566313244524c6634df9a63e663393b5b0"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_3_2.png": {
+   "bytes": 123430,
+   "sha256": "d042b1356d54eb584a9eed89b80665c28481fdf4bb4344d4ef28ee66122c36b3"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_3_3.png": {
+   "bytes": 113756,
+   "sha256": "37ea97a2174a088585f6380ab32e97a75e6b211cc9398ffbd25e2870036e2384"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_4_1.png": {
+   "bytes": 101279,
+   "sha256": "1f7e0e5ebf93919877dbc148f3870029f8533c85c1e5d5e7b37e919e3c81cdb5"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_4_2.png": {
+   "bytes": 109431,
+   "sha256": "bf45eb8bb9cd28058a0b4773e3596290ac6ddf9c702cd1dc13e9a3097c02cdda"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_4_3.png": {
+   "bytes": 106370,
+   "sha256": "04de43ff771725e310c08c561045aaec9d905d342fc8e37311548b8179e728d5"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_5_1.png": {
+   "bytes": 134061,
+   "sha256": "da57a6ff7c58e4ae3dadbd55e6c9111aae347957cd69dfe51e518f11922a91d4"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_6_1.png": {
+   "bytes": 140100,
+   "sha256": "b7ffcc24f660905ec89a12ab1adbf20a8da9a92b54ef12edb7991a2650824803"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_7_1.png": {
+   "bytes": 138623,
+   "sha256": "5011892dce2a630b7d5cf8490eb2b9b26acf1efaf1346df31b2c7defbc27cda5"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_8_1.png": {
+   "bytes": 121288,
+   "sha256": "95679c6aa514367cce57278352e5f92c1682573689d4224ed9af0664f69976db"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_8_2.png": {
+   "bytes": 107635,
+   "sha256": "e5e83a13c3545e575b13d162bcad2d9658636b6920b5bad02d70c162fed41d2b"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_8_3.png": {
+   "bytes": 110480,
+   "sha256": "5ec6690a69d87571f2a886fea4a2297ac595595a79ed9a5ccdd52f70e95a6c00"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_9_1.png": {
+   "bytes": 87375,
+   "sha256": "0dd4f4be3647ae077213a5edfae395785ac576cc1990d84008a41775dc7a9667"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_4_9_2.png": {
+   "bytes": 122306,
+   "sha256": "2539bcc0d9617476afa400a74d2ce45160d029e85631aebc00b7f9bf4f494b0c"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_5_1_1.png": {
+   "bytes": 133833,
+   "sha256": "e407f51dea83692e397cee9c550fdcb54050270d84a5528faddeebeb300db8fb"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_5_2_1.png": {
+   "bytes": 136847,
+   "sha256": "2679309ecddf52be76a67bdd164237f2389ac77b02eda1903d200a19a195247b"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_5_3_1.png": {
+   "bytes": 149012,
+   "sha256": "604946c3ececfbb486d6b822b5527c1c3d463ab7e5c5e8992c7cadd1af759d7a"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_5_4_1.png": {
+   "bytes": 135935,
+   "sha256": "c4f81d8347f9582ff995d9933084a3bff6fff46b7fe9ff59591714bfafa79bb1"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_5_5_1.png": {
+   "bytes": 94539,
+   "sha256": "b9623da8f8d7828d26017bfe22a8349571bcbee7c004bda351766b661c63161a"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_5_6_1.png": {
+   "bytes": 95055,
+   "sha256": "52286fedd12bcffb1b4baae513895808a60b04de39701d90877745d19271b832"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_chapter_5_7_1.png": {
+   "bytes": 119118,
+   "sha256": "ffc4aa009fbcfc7485f53d62e68cb2ee3ce2849320da47703fe736a9881815f4"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_season1.png": {
+   "bytes": 6070,
+   "sha256": "5663aa30675a3f4d55f84028e81ba8fa91e70a874531afff81a264af39482f0f"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_season2.png": {
+   "bytes": 6876,
+   "sha256": "39999390eef3dac18bc5df559dd090a2e99d60fceb194650d2bf8a17e41e4ea3"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_season3.png": {
+   "bytes": 6190,
+   "sha256": "7452ecf24cda79568cb86916f931e21569f491400e16cd82d1594030e4fe9f1d"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_season3kari.png": {
+   "bytes": 5517,
+   "sha256": "ba94bce86b036dd01c4cfc2b2e107d7b55793e11dcb002ec0190e6985439e90b"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_season4.png": {
+   "bytes": 6929,
+   "sha256": "fc6e5d52cf23434431dc29563a813d4e528010a6b3f8b7402439ccec3f268a30"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_season5.png": {
+   "bytes": 6299,
+   "sha256": "2014a3eb354a8ce24db7621777551dce475997a2b31a13ee7997425965cfea43"
+  },
+  "payload/delta/assets/plate_pack/memory_plate_special.png": {
+   "bytes": 5605,
+   "sha256": "4dfc6fe44bab4ad27cba07e60ef5ef9262c34324ee852d807fa72907449a6783"
+  },
+  "payload/delta/assets/plate_pack/spd_20210930_bn_list_sairin.png": {
+   "bytes": 251890,
+   "sha256": "cf3bced564cf0ecdce4a9cfb57a25173bb399b9f4f2651bbc7c7730c99fdab7c"
+  },
+  "payload/delta/assets/plate_pack/spd_202112_bn_list_sairin.png": {
+   "bytes": 265103,
+   "sha256": "a5d02e52682cc51550941bab07b8057c7896a5cb82831914f24ae300df5bfb7a"
+  },
+  "payload/delta/assets/plate_pack/spd_20220930_bn_list_masyou.png": {
+   "bytes": 240655,
+   "sha256": "c760af7d1717055d0655674a81d8028bbb64252fbada661d25527b5e1b1b8003"
+  },
+  "payload/delta/assets/plate_pack/spd_2022_bn_list_masyou.png": {
+   "bytes": 252939,
+   "sha256": "ad190ed6343c02fcecf56a8f1450b82b3c287952c9297f54c557c88cee79666e"
+  },
+  "payload/delta/assets/plate_pack/spd_20230919_bn_list_hametu.png": {
+   "bytes": 239836,
+   "sha256": "f6243b8e127092d74e64330f7e1d6dddb17a81e1e1d2327e91674c6fccda8472"
+  },
+  "payload/delta/assets/plate_pack/spd_2023_bn_list_hametu.png": {
+   "bytes": 254299,
+   "sha256": "4619033b57ddbdb759d1cc1b7e2d2b972ff0d63cc466f55aa211183be145198b"
+  },
+  "payload/delta/assets/plate_pack/spd_20240831_bn_list_bpukoku.png": {
+   "bytes": 237783,
+   "sha256": "e7ad557fddac5a20a8716adbd231492715a8472c936a6f04dd7a564337d91c29"
+  },
+  "payload/delta/assets/plate_pack/spd_20241022_bn_list_kyukyoku.png": {
+   "bytes": 220685,
+   "sha256": "31eb52804d8d49e80123d53a9383eff0bc884576dd67a9929fec6b86d2c7d1eb"
+  },
+  "payload/delta/assets/plate_pack/spd_2024_bn_list_boukoku.png": {
+   "bytes": 247113,
+   "sha256": "f05d1ea86297c4363d287462e5ce8e0dc73142b20567db701f3fff9c223728b9"
+  },
+  "payload/delta/assets/plate_pack/spd_2024_bn_list_kyukyoku.png": {
+   "bytes": 234891,
+   "sha256": "f40c6352b723692439b63149d0453e316cbdca79ca28a3116edb254a49882c5f"
+  },
+  "payload/delta/assets/plate_pack/spd_2025_bn_list_keisyou.png": {
+   "bytes": 183605,
+   "sha256": "2cc68dd9312de01d93e41e215597add595b2f1b1ca7d3fadb1655cfb3d8c71c6"
+  },
+  "payload/stored/assets/ko_dict.json": {
+   "bytes": 35608404,
+   "sha256": "c871505a59fb7b9c851960d9a4e85fd6caf2d092ec0291c2e8ec02de730f7599"
+  },
+  "payload/stored/assets/plate_pack/manifest.json": {
+   "bytes": 30948,
+   "sha256": "4715cb6639cd5b222e901076ba99e2c361dc9af3d379003e133004c9cd8906a9"
+  },
+  "payload/stored/assets/plate_pack/version.txt": {
+   "bytes": 10,
+   "sha256": "8b7c76f37d1fac2a7852ff9749889789a7e9020aea324c57cfa3af5799322075"
+  }
+ }
+}
